@@ -8,7 +8,7 @@ const timer = setInterval(function () {
   if (bar.complete) {
     clearInterval(timer);
   } else if (bar.curr === 10) {
-      bar.interrupt('Inciando\nprogresso atual é '.green + bar.curr + '/' + bar.total + '\nAguarde...'.yellow);
+      bar.interrupt('Inciando\nprogresso atual é '.green + bar.curr + '/' + bar.total + '\nfinalizado...'.yellow);
   }
 }, 100);
 
@@ -21,5 +21,6 @@ const connectToDatabase = () => {
     .then(() => console.log('MongoDB Conectado'.red))
     .catch((err) => console.log(`Erro ao conectar com MongoDB: ${err}`));
 };
+
 
 module.exports = connectToDatabase;
