@@ -1,0 +1,22 @@
+[
+  {
+    "sabor": "Queijo com coco",
+    "descricao":"Tapioca tradicional",
+    "preco": 10.0
+  },
+  {
+    "sabor": "Queijo com charque",
+    "descricao": "Saborosa Tapioca Queijo com Charque",
+    "preco": 15.0
+  },
+  {
+    "sabor": "Queijo com charque, calabresa e verduras",
+    "descricao": "Tapioca Arretada",
+    "preco": 18.0
+  },
+  {
+    "sabor": "Queijo com goiabada",
+    "descricao": "Tapioca Romeu e Julieta",
+    "preco": 12.0
+  }
+]
