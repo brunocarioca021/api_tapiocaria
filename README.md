@@ -1,8 +1,17 @@
-## Projeto API TAPIOCARIA ABACATE
+<h1 align="center"> Projeto API TAPIOCARIA ABACATE</h1>
 
+<p align="center">
 <img src="img/tapioca-recheada.jpg" alt="tapioca-imagem">
+</p>
 
-> Projeto com desenvolvimento completo do CRUD adicionando a autenticação e fazendo o deploy durante as aulas de backend na Blue EdTech.
+## 📝 Descrição
+
+> Projeto é uma aplicação backend com NodeJS  desenvolvendo CRUD completo voltado para tapiocaria.Foi adicionado algumas funcionalidades, adicionando a autenticação do usuário.
+
+
+
+
+
 
 
 
