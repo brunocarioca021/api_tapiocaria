@@ -19,7 +19,7 @@
       "description": "API de produção"
     },
     {
-      "url": "http://localhost:3001/tapiocas",
+      "url": "http://localhost:3001/tapiocas/api-docs/",
       "description": "API de teste"
     }
   ],
