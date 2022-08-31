@@ -11,11 +11,11 @@
 },
   "servers": [
     {
-      "url": "https://apitapiocaria.onrender.com/tapiocas",
+      "url": "",
       "description": "API de produção Render"
     },
     {
-      "url": "https://api-tapiocaria.herokuapp.com/tapiocas",
+      "url": "",
       "description": "API de produção"
     },
     {
@@ -24,7 +24,7 @@
     }
   ],
   "paths": {
-    "/users/create": {
+    "/user/create": {
       "post": {
         "summary": "Criar um novo usuário",
         "description": "Rota responsável por criar um novo usuário",
@@ -36,11 +36,11 @@
                 "$ref": "#/components/schemas/User"
               },
               "examples": {
-                "Users": {
+                "User": {
                   "value": {
-                    "name": "Cacau Lima",
-                    "username": "cacode",
-                    "email": "clima@gmail.com",
+                    "name": "Bruno Dutra",
+                    "username": "carioca021",
+                    "email": "carioca021@gmail.com",
                     "password": "12345",
                     "avatar": "https://i.imgur.com/Ry1cb5M.png"
                   }
@@ -67,7 +67,7 @@
         }
       }
     },
-    "/users": {
+    "/user/findAll": {
       "get": {
         "summary": "Buscar todos os usuários",
         "description": "Rota responsável por buscar todos os usuários",
@@ -94,7 +94,7 @@
     },
     "/auth/login": {
       "post": {
-        "summary": "Entrar no Twitter",
+        "summary": "Entrar na Tapiocaria",
         "description": "Rota responsável fazer o login de um user cadastrado",
         "tags": ["Auth"],
         "requestBody": {
@@ -106,7 +106,7 @@
               "examples": {
                 "User": {
                   "value": {
-                    "email": "clima@gmail.com",
+                    "email": "carioca021@gmail.com",
                     "password": "12345"
                   }
                 }

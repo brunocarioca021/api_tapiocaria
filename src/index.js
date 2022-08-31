@@ -1,7 +1,6 @@
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
-const route = require('./routes/tapi.route');
 const connectToDatabase = require('./database/database');
 
 const port = process.env.PORT || 3001;
@@ -13,18 +12,19 @@ app.use(express.json());
 
 connectToDatabase();
 
+const route = require("./routes/tapi.route");
 const userRoute = require("./routes/user.route");
+const authRouter = require("./routes/auth.route");
 const swaggerRoute = require("./routes/swagger.router");
 
-
+app.use('/tapiocas', route);
 app.use("/user", userRoute);
+app.use("/auth", authRouter);
 app.use("/api-docs", swaggerRoute);
   
 app.get('/', function (req, res) {
   res.send('API Tapiocaria Abacate');
 });
-
-app.use('/tapiocas', route);
 
 app.listen(port, () => {
   console.log(`Servidor rodando na porta ${port}`);
