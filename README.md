@@ -1,3 +1,8 @@
-## Projeto API completo, com tema livre e persistência no banco de dados MongoDB
+## Projeto API TAPIOCARIA ABACATE
 
-> COLOCANDO EM PRÁTICA O QUE FOI ENSINADO EM AULA.
+<img src="img/tapioca-recheada.jpg" alt="tapioca-imagem">
+
+> Projeto com desenvolvimento completo do CRUD adicionando a autenticação e fazendo o deploy durante as aulas de backend na Blue EdTech.
+
+
+
