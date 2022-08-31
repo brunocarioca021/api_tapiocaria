@@ -5,12 +5,13 @@ const connectToDatabase = require('./database/database');
 
 const port = process.env.PORT || 3001;
 const app = express();
+connectToDatabase();
 
 app.use(cors());
 app.use(express.json());
 
 
-connectToDatabase();
+
 
 const route = require("./routes/tapi.route");
 const userRoute = require("./routes/user.route");
