@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const ProgressBar = require('progress');
+// const ProgressBar = require('progress');
 const colors = require('colors');
 
 
@@ -14,15 +14,15 @@ const connectToDatabase = () => {
     .catch((err) => console.log(`Erro ao conectar com MongoDB: ${err}`));
 };
 
-const bar = new ProgressBar(':bar :current/:total', { total: 20 });
-const timer = setInterval(function () {
-  bar.tick();
-  if (bar.complete) {
-    clearInterval(timer);
-  } else if (bar.curr === 10) {
-      bar.interrupt('Inciando\nprogresso atual é '.green + bar.curr + '/' + bar.total + '\nfinalizado...'.yellow);
-  }
-}, 100);
+// const bar = new ProgressBar(':bar :current/:total', { total: 20 });
+// const timer = setInterval(function () {
+//   bar.tick();
+//   if (bar.complete) {
+//     clearInterval(timer);
+//   } else if (bar.curr === 10) {
+//       bar.interrupt('Inciando\nprogresso atual é '.green + bar.curr + '/' + bar.total + '\nfinalizado...'.yellow);
+//   }
+// }, 100);
 
 
 module.exports = connectToDatabase;
