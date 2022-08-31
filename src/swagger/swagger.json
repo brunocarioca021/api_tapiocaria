@@ -72,6 +72,7 @@
         "summary": "Buscar todos os usuários",
         "description": "Rota responsável por buscar todos os usuários",
         "tags": ["Users"],
+        "security": [{ "bearerAuth": [] }],
         "responses": {
           "400": {
             "description": "Not Found"
@@ -124,7 +125,7 @@
         }
       }
     },
-    "/tapi": {
+    "/tapiocas/tapi/": {
       "get": {
         "summary": "Lista de todas as tapiocas",
         "description": "Rota responsável por listar todas as tapiocas",
@@ -149,7 +150,7 @@
         }
       }
     },
-    "/tapi/{id}": {
+    "/tapiocas/tapi/{id}": {
       "get": {
         "summary": "Busca uma tapioca pelo ID",
         "description": "Rota responsável por buscar uma tapioca pelo ID",
@@ -180,7 +181,7 @@
         }
       }
     },
-    "/create": {
+    "/tapiocas/create": {
       "post": {
         "summary": "Cadastrar uma tapioca",
         "description": "Rota responsável por cadastrar uma tapioca",
@@ -221,7 +222,7 @@
         }
       }
     },
-    "/update/{id}": {
+    "/tapiocas/update/{id}": {
       "put": {
         "summary": "Editar uma tapioca pelo ID",
         "description": "Rota responsável por editar uma tapioca pelo ID",
@@ -270,7 +271,7 @@
         }
       }
     },
-    "/delete/{id}": {
+    "/tapiocas/delete/{id}": {
       "delete": {
         "summary": "Apagar uma tapioca pelo ID",
         "description": "Rota responsável por apagar uma tapioca pelo ID",
@@ -383,6 +384,13 @@
       }
   },
   "components": {
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    },
     "schemas": {
       "Tapiocas": {
         "type": "object",
