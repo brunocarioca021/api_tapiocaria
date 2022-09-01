@@ -42,6 +42,29 @@ Instale as dependencias:
 $ npm i
 ```
 
+Inicie:
+
+```
+$ npm run dev
+```
+
+> A aplicação fica disponível na rota http://localhost:3001
+
+## 🤝 Colaboradores
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/88523196?v=4" width="100px;" alt="Foto do Bruno Carioca021 no GitHub"/><br>
+        <sub>
+          <b>Bruno Dutra</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
 ## 🔧 Status do Projeto
 
 <h3>
