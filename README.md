@@ -6,7 +6,7 @@
 
 ## 📝 Descrição
 
-> Projeto é uma aplicação backend com NodeJS  desenvolvendo CRUD completo voltado para tapiocaria.Foi adicionado algumas funcionalidades, adicionando a autenticação do usuário.
+<p> Projeto é uma aplicação backend com NodeJS  desenvolvendo CRUD completo voltado para tapiocaria. Tem como objetivo a criação de um cadastro de usuário e tapioca, sendo possível a  autenticação do usuário, edição, adição e exclusão de cadastros.</p>
 
 ## 📚 Conteúdo
 
@@ -17,8 +17,36 @@
 * <b>PUT/ID</b>: Pelo ID da tapioca pode atualizar.
 * <b>DELETE/ID</b>: Pelo ID pode deletar a Tapioca.
 
+>Observação: A parte do carrinho estar em desenvolvimento.
 
 
+## 🚀 Tecnologias utilizadas
+
+* VS Code;
+* NodeJS;
+* JWT;
+* Swagger UI;
+* MongoDB.
+
+## ⚙️ Como executar a aplicação em ambiente local
+
+Clone o projeto:
+
+```bash
+$ git clone https://github.com/brunocarioca021/api_tapiocaria.git
+```
+
+Instale as dependencias:
+
+```
+$ npm i
+```
+
+## 🔧 Status do Projeto
+
+<h3>
+O projeto ainda está em desenvolvimento.
+</h3>
 
 
 
