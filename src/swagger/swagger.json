@@ -11,7 +11,7 @@
 },
   "servers": [
     {
-      "url": "https://api-tapiocaria-abacate.herokuapp.com/api-docs/",
+      "url": "https://api-tapiocaria-abacate.herokuapp.com/",
       "description": "API de produção"
     },
     {
